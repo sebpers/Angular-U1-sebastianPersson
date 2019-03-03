@@ -1,0 +1,4 @@
+<div class="container">
+  <app-user-list [users]="userList"></app-user-list>
+  <app-edit-users (addUser)='addUser($event)' (removeUser)="deleteUser($event)"></app-edit-users>
+</div>

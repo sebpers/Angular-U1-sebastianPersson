@@ -1,0 +1,17 @@
+li {
+  background-color: #f8f8f8;
+  width: 360px;
+  min-height: 50px;
+  margin-top: 5px;
+  border-radius: 5px;
+  flex: grow;
+  box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.40);
+}
+
+p {
+  padding: 10px 5px;
+  font-size: 20px;
+  font-weight: bold;
+  word-wrap: break-word;
+
+}
