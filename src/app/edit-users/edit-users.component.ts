@@ -24,6 +24,7 @@ export class EditUsersComponent implements OnInit {
   addPerson(): void {
     this.addUser.emit(this.value);
     this.value = "";
+
     console.log(this.value);
   }
 

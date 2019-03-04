@@ -1,6 +1,6 @@
 <div class="wrapper">
   <ul>
-    <app-user-list-item *ngFor="let user of users" [user]="users" [textColor1]="textColor"></app-user-list-item>
+    <app-user-list-item *ngFor="let user of users" [user]="user" [textColor1]="textColor"></app-user-list-item>
   </ul>
   <button (click)="toggleTextColor()" type="button" id="toggleColors">Toggle Colors</button>
 </div>
